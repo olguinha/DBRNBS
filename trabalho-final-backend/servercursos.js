@@ -22,7 +22,7 @@ const cursoSchema = new mongoose.Schema({
     codcurso: String,
     nomecurso: String,
     descricao: String,
-    carga_horaria_total: Int,
+    carga_horaria_total: Date,
     disciplinas:String
    });
 
