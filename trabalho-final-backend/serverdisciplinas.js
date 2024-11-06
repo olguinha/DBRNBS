@@ -28,7 +28,6 @@ const disciplinasSchema = new mongoose.Schema({
 
 });
 
-
 const Disciplina = mongoose.model('Disciplina', disciplinasSchema);
 
    app.post('/disciplinas', (req, res) => {
