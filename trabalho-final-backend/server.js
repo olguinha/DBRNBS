@@ -22,7 +22,7 @@ const alunoSchema = new mongoose.Schema({
     
  codaluno: String,
  nomealuno: String,
- codcurso: String,
+ codaluno: String,
  curso: String,
  sexo: String,
  data_nasc: Date,
