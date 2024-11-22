@@ -15,10 +15,12 @@ mongoose.connect('mongodb://localhost:27017/escola', {
  console.log('Conectado ao MongoDB');
 }).catch((err) => {
  console.log('Erro ao conectar ao MongoDB:', err);
+  
 });
 
 
 const cursoSchema = new mongoose.Schema({
+
     codcurso: String,
     nomecurso: String,
     descricao: String,
